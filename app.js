@@ -44,7 +44,7 @@ function userFlash(btn){
 function wrongFlash() {
     document.querySelector('body').style.backgroundColor = 'red';
     setTimeout(function () {
-        document.querySelector('body').style.backgroundColor = 'white';
+        document.querySelector('body').style.backgroundColor = 'rgb(255, 238, 215)';
     }, 150);
 }
 
