@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(255, 238, 215);
+}
+
+.game-box{
+  padding: 2rem;
+  width: 320px;
+  height: 200px;
+  display:flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+p{
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.red{
+  width: 100px;
+  height: 100px;
+  background-color:#EB4D20;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+
+.yellow{
+  width: 100px;
+  height: 100px;
+  background-color: #ecd41e;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+
+.green{
+  width: 100px;
+  height: 100px;
+  background-color: #0cf877;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+
+.purple{
+  width: 100px;
+  height: 100px;
+  background-color: #b531dd;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+
+.gameflash{
+  background: #fff;
+}
+
+.userflash {
+  background-color: #008729;
+}
+
+h4{
+  text-align:center;
+}
